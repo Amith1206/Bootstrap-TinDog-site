@@ -1,0 +1,173 @@
+body, h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: White;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.iphoneimg {
+  transform: rotate(30deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+.nav-item {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.dbtn {
+  margin: 5% 3% 5% 0%;
+}
+
+.sz {
+  margin: 50px;
+  font-size: 5rem;
+  position: relative;
+  left: 55px;
+  color: #ff4c68;
+}
+
+.sz:hover {
+  color: #ed6b7f;
+}
+
+#features {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.fe {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.feat {
+  color: grey;
+  text-align: center;
+}
+
+/*Testimonial*/
+#testimonials {
+  padding-top: 100px;
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+.dogimg {
+  width: 10%;
+  border-radius: 50%;
+  position: relative;
+  left: 50px;
+  margin: 20px;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  width: 10%
+}
+
+.carousel-img {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing*/
+.ptext {
+  color: black;
+  font-size: 1.5rem;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pcol {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  .iphoneimg {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+  padding: 50px;
+  margin: 50px 0px;
+}
+
+.ic {
+  margin: 10px;
+  color: black;
+}
+
+.ic:hover {
+  color: grey;
+}
